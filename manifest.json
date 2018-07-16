@@ -1,6 +1,14 @@
 {
+    "manifest_version": 2,
+
     "name": "Perfectly Balanced",
     "version": "1.0",
-    "description": "As all things should be. ",
-    "manifest_version": 2
+    "description": "As all things should be.",
+
+    "content_scripts": [
+        {
+          "matches": ["https://www.reddit.com/*"],
+          "js": ["jquery-2.2.0.min.js", "snap.js"]
+        }
+      ]
 }

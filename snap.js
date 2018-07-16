@@ -1,0 +1,1 @@
+$('div[class^="thing"]').css( "border", "3px solid red" );
