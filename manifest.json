@@ -4,6 +4,11 @@
     "name": "Perfectly Balanced",
     "version": "1.0",
     "description": "As all things should be.",
+    "icons": { 
+      "16": "16.png",
+      "48": "48.png",
+     "128": "128.png" 
+    },
 
     "content_scripts": [
         {
