@@ -8,7 +8,8 @@
     "content_scripts": [
         {
           "matches": ["https://www.reddit.com/*"],
-          "js": ["jquery-2.2.0.min.js", "snap.js"]
+          "js": ["jquery-2.2.0.min.js", "snap.js"],
+          "run_at": "document_end"
         }
       ]
 }

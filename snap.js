@@ -1,1 +1,1 @@
-$('div[class^="thing"]').css( "border", "3px solid red" );
+$("div[class*='thing id-t3_8z']").fadeOut(1000)
